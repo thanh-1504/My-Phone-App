@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/My-Phone-App/static/css/main.183cfccb.css",
+    "main.js": "/My-Phone-App/static/js/main.71c98159.js",
+    "static/css/75.363893d4.chunk.css": "/My-Phone-App/static/css/75.363893d4.chunk.css",
+    "static/js/75.5dc3aed3.chunk.js": "/My-Phone-App/static/js/75.5dc3aed3.chunk.js",
+    "static/js/962.72d6f57f.chunk.js": "/My-Phone-App/static/js/962.72d6f57f.chunk.js",
+    "static/js/890.cdd5b305.chunk.js": "/My-Phone-App/static/js/890.cdd5b305.chunk.js",
+    "static/js/242.2bd4cfb0.chunk.js": "/My-Phone-App/static/js/242.2bd4cfb0.chunk.js",
+    "static/js/787.9dd62f39.chunk.js": "/My-Phone-App/static/js/787.9dd62f39.chunk.js",
+    "static/js/331.40d94d4f.chunk.js": "/My-Phone-App/static/js/331.40d94d4f.chunk.js",
+    "static/js/67.26dff754.chunk.js": "/My-Phone-App/static/js/67.26dff754.chunk.js",
+    "static/css/796.0117eef9.chunk.css": "/My-Phone-App/static/css/796.0117eef9.chunk.css",
+    "index.html": "/My-Phone-App/index.html",
+    "main.183cfccb.css.map": "/My-Phone-App/static/css/main.183cfccb.css.map",
+    "main.71c98159.js.map": "/My-Phone-App/static/js/main.71c98159.js.map",
+    "75.363893d4.chunk.css.map": "/My-Phone-App/static/css/75.363893d4.chunk.css.map",
+    "75.5dc3aed3.chunk.js.map": "/My-Phone-App/static/js/75.5dc3aed3.chunk.js.map",
+    "962.72d6f57f.chunk.js.map": "/My-Phone-App/static/js/962.72d6f57f.chunk.js.map",
+    "890.cdd5b305.chunk.js.map": "/My-Phone-App/static/js/890.cdd5b305.chunk.js.map",
+    "242.2bd4cfb0.chunk.js.map": "/My-Phone-App/static/js/242.2bd4cfb0.chunk.js.map",
+    "787.9dd62f39.chunk.js.map": "/My-Phone-App/static/js/787.9dd62f39.chunk.js.map",
+    "331.40d94d4f.chunk.js.map": "/My-Phone-App/static/js/331.40d94d4f.chunk.js.map",
+    "67.26dff754.chunk.js.map": "/My-Phone-App/static/js/67.26dff754.chunk.js.map",
+    "796.0117eef9.chunk.css.map": "/My-Phone-App/static/css/796.0117eef9.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/css/main.183cfccb.css",
+    "static/js/main.71c98159.js"
+  ]
+}
