@@ -1,5 +1,4 @@
-/* eslint-disable react-hooks/exhaustive-deps */
-import React, { useEffect, useState } from "react";
+import React, { useEffect useState } from "react";
 import PaymentInfoProduct from "../components/payment/PaymentInfoProduct";
 import PaymentHeader from "../components/payment/PaymentHeader";
 import LayoutPayment from "../layouts/LayoutPayment";

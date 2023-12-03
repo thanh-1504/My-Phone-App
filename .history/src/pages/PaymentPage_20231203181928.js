@@ -1,8 +1,8 @@
-/* eslint-disable react-hooks/exhaustive-deps */
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import PaymentInfoProduct from "../components/payment/PaymentInfoProduct";
 import PaymentHeader from "../components/payment/PaymentHeader";
 import LayoutPayment from "../layouts/LayoutPayment";
+
 import { faCaretDown } from "@fortawesome/free-solid-svg-icons";
 import Swal from "sweetalert2";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
