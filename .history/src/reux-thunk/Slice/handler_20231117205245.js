@@ -1,0 +1,18 @@
+import { createAsyncThunk } from "@reduxjs/toolkit";
+import { getProductDataByName, requestData } from "./request";
+export const handleGetData = createAsyncThunk(
+  "getData",
+  async (query, thunkAPI) => {
+    const data = await requestData();
+    return data;
+  }
+);
+
+export const handleGetDataProductByName = createAsyncThunk(
+  "getDataByName",
+  async (query, thunkAPI) => {
+    const data = getProductDataByName();
+    console.log(data);
+    return data;
+  }
+);

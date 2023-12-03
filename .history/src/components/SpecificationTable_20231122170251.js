@@ -1,0 +1,128 @@
+/* eslint-disable react/style-prop-object */
+import React from "react";
+
+const SpecificationTable = ({ style = "", data }) => {
+  if (!data) return;
+  console.log(data);
+  const {
+    batteryLife,
+    cpu,
+    frontCamera,
+    rearCamera,
+    resolution,
+    screen,
+    screenTechnology,
+    touchGlass,
+    weight,
+  } = data;
+  return (
+    <table
+      className={`text-center border border-[#c6c3c3] mb:mb-[40px] lg:mb-0 ${style}`}
+    >
+      <tbody>
+        <tr>
+          <td className="p-3 border ">
+            <span>
+              <strong className="text-center mb:text-[#c6c3c3] lg:text-white">
+                {screenTechnology}
+              </strong>
+            </span>
+          </td>
+          <td className="p-3 border ">
+            <span>
+              <strong className="text-[#c6c3c3]">
+                Super Retina XDR - OLED
+              </strong>
+            </span>
+          </td>
+        </tr>
+        <tr>
+          <td className="border ">
+            <span>
+              <strong className="text-center mb:text-[#c6c3c3] lg:text-white">
+                Độ phân giải:
+              </strong>
+            </span>
+          </td>
+          <td className="p-3 border ">
+            <span>
+              <strong className="text-[#c6c3c3]">2532 x 1170 Pixels </strong>
+            </span>
+          </td>
+        </tr>
+        <tr>
+          <td className="border ">
+            <span>
+              <strong className="text-center mb:text-[#c6c3c3] lg:text-white">
+                Màn hình rộng
+              </strong>
+            </span>
+          </td>
+          <td className="p-3 border ">
+            <span>
+              <strong className="text-[#c6c3c3]">6.1 inch </strong>
+            </span>
+          </td>
+        </tr>
+        <tr>
+          <td className="border ">
+            <span>
+              <strong className="text-center mb:text-[#c6c3c3] lg:text-white">
+                Camera trước
+              </strong>
+            </span>
+          </td>
+          <td className="p-3 border ">
+            <span>
+              <strong className="text-[#c6c3c3]">12 MP</strong>
+            </span>
+          </td>
+        </tr>
+        <tr>
+          <td className="border ">
+            <span>
+              <strong className="text-center mb:text-[#c6c3c3] lg:text-white">
+                Camera sau
+              </strong>
+            </span>
+          </td>
+          <td className="p-3 border ">
+            <span>
+              <strong className="text-[#c6c3c3]">3 camera 12 MP </strong>
+            </span>
+          </td>
+        </tr>
+        <tr>
+          <td className="border ">
+            <span>
+              <strong className="text-center mb:text-[#c6c3c3] lg:text-white">
+                Chip
+              </strong>
+            </span>
+          </td>
+          <td className="p-3 border ">
+            <span>
+              <strong className="text-[#c6c3c3]">Apple A14 Bionic</strong>
+            </span>
+          </td>
+        </tr>
+        <tr>
+          <td className="border ">
+            <span>
+              <strong className="text-center mb:text-[#c6c3c3] lg:text-white">
+                Dung lượng pin
+              </strong>
+            </span>
+          </td>
+          <td className="p-3 border ">
+            <span>
+              <strong className="text-[#c6c3c3]">2815 mAh</strong>
+            </span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  );
+};
+
+export default SpecificationTable;

@@ -1,0 +1,24 @@
+import React from "react";
+
+const Button = ({
+  style = "",
+  onClick = () => {},
+  type = "button",
+  children,
+  text = "",
+  ...rest
+}) => {
+  return (
+    <button
+      type={type}
+      onClick={onClick}
+      className={`font-bold text-white ${style}`}
+      {...rest}
+    >
+      <p>{children}</p>
+      <p className="text-sm">{text}</p>
+    </button>
+  );
+};
+
+export default Button;

@@ -1,0 +1,31 @@
+import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+const Banner = () => {
+  return (
+    <div>
+      <Swiper>
+        <SwiperSlide>
+          <img
+            src="https://www.bihouse.vn/img_data/images/427794252185-BANNER-1.jpg"
+            alt="Banner"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img
+            src="https://www.bihouse.vn/img_data/images/427794252185-BANNER-1.jpg"
+            alt="Banner"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img
+            src="https://www.bihouse.vn/img_data/images/427794252185-BANNER-1.jpg"
+            alt="Banner"
+          />
+        </SwiperSlide>
+      </Swiper>
+    </div>
+  );
+};
+
+export default Banner;
