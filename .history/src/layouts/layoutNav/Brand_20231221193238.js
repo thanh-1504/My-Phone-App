@@ -4,7 +4,7 @@ const Brand = ({ nameBrand = "", className = "" }) => {
   const navigate = useNavigate();
   return (
     <div
-      className={`relative left-1/2 translate-x-[-40%] inline-block ${className} `}
+      className={`relative left-1/2 translate-x-1/ ${className} `}
       onClick={() => navigate(`/products/${nameBrand}`)}
     >
       <Link

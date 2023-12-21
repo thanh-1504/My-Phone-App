@@ -37,7 +37,7 @@ const ProductsPage = () => {
             data={allData[0]?.filterBrandName}
             total={dataPageNav.length || 0}
           ></FilterProduct>
-          <div className="mb:grid mb:grid-cols-2 lg:grid-cols-4 gap-x-0 lg:gap-y-10 lg:pb-10 lg:px-0 lg:mt-10 md:gap-y-10 md:mt-8 sm:gap-y-7 sm:gap-x-10 mb:gap-y-8 mb:gap-x-3 mb:mt-10 lg:place-items-center lg:gap-x-0">
+          <div className="mb:grid mb:grid-cols-2 lg:grid-cols-4 gap-x-0 lg:gap-y-[30px] lg:pb-10 lg:px-0 lg:mt-10 md:gap-y-10 md:mt-8 sm:gap-y-7 sm:gap-x-10 mb:gap-y-8 mb:gap-x-3 mb:mt-10 lg:place-items-center lg:gap-x-0">
             {dataPageNav.map((dataItem) => (
               <ProductsItem key={v4()} data={dataItem}></ProductsItem>
             ))}

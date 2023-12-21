@@ -8,14 +8,14 @@ const ProductsItem = ({ style = "", data, ...props }) => {
   const { name, price, imgSrc } = data;
   const modelProduct = data.name.split(" ").join("");
   return (
-    <div className="mb:w-full mb:px-2 sm:w-full sm:px-3 md:h-[480px] lg:px-4 lg:h-auto">
+    <div className="mb:w-full mb:px-2 sm:w-full sm:px-3 md:h-[480px] lg:px-6">
       <div className="bg-[#3b1213] lg:h-[30px] rounded-t-2xl flex items-center justify-center ">
         <span className="text-sm font-medium text-center text-white uppercase">
           Mở rộng đổi + 2 năm
         </span>
       </div>
       <div
-        className={`bg-[#191717] rounded-b-lg relative w-full lg:h-[360px] cursor-pointer lg:px-5 mb:pb-2 ${style}`}
+        className={`bg-[#191717] rounded-b-lg relative w-full lg:h-[360px] cursor-pointer lg:px-5 mb:px-2 mb:pb-2 ${style}`}
       >
         <div className="flex justify-center">
           <ImageItem
@@ -41,7 +41,7 @@ const ProductsItem = ({ style = "", data, ...props }) => {
           className="text-center mb:py-2"
         >
           <h3
-            className={`text-[16px] font-semibold name__product--hover lg:max-w-[252px] lg:!h-[45px]
+            className={`text-[16px] font-semibold name__product--hover lg:max-w-[252px] lg:!h-[45px] 
             }`}
           >
             {name}
