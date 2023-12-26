@@ -144,7 +144,7 @@ const ProductDetailPage = () => {
           loop={true}
           className={`${
             widthScreen >= 1280
-              ? "swiper-wrapper-product lg:mt-[60px] lg:mb-[150px] !w-full"
+              ? "swiper-wrapper-product lg:mt-[60px] lg:mb-[150px] "
               : "md:mb-[80px] md:!w-[720px] mb:mb-[60px] sm:!w-[730px]"
           } `}
           grabCursor={true}

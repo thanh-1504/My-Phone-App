@@ -1,0 +1,166 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import-normalize;
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&family=Open+Sans:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;700&family=Roboto:wght@300;400;500;700&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.swiper-wrapper-product {
+  padding-left: ;
+}
+
+.svg-wrapper {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0 auto;
+  width: 320px;
+}
+.shape {
+  stroke-dasharray: 140 540;
+  stroke-dashoffset: -474;
+  stroke-width: 8px;
+  fill: transparent;
+  stroke: #004f53;
+  border-bottom: 5px solid black;
+  transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
+}
+.text {
+  font-family: "Roboto";
+  line-height: 32px;
+  letter-spacing: 5px;
+  color: #fff;
+  top: -37px;
+  position: relative;
+}
+.svg-wrapper:hover .shape {
+  stroke-width: 2px;
+  stroke-dashoffset: 0;
+  stroke-dasharray: 760;
+}
+
+.option__type--active {
+  border-color: #4094ea;
+}
+
+.modal {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+}
+
+.overlay {
+  background: rgba(49, 49, 49, 0.8);
+}
+.modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 1.4;
+  border-radius: 8px;
+}
+
+.modal-content::-webkit-scrollbar {
+  display: none;
+}
+
+.input--payment {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+}
+
+.name__product--hover {
+  background: linear-gradient(to right, #00575b, #00575b 50%, white 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-position: 100%;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  transition: background-position 275ms ease;
+}
+
+.name__product--hover:hover {
+  background-position: 0 100%;
+}
+
+.capicity-input1:checked ~ .product--checked1,
+.capicity-input2:checked ~ .product--checked2,
+.capicity-input3:checked ~ .product--checked3,
+.capicity-input4:checked ~ .product--checked4 {
+  border-color: green;
+}
+
+.color-input1:checked ~ .product-color--checked1,
+.color-input2:checked ~ .product-color--checked2,
+.color-input3:checked ~ .product-color--checked3,
+.color-input4:checked ~ .product-color--checked4,
+.color-input5:checked ~ .product-color--checked5,
+.color-input6:checked ~ .product-color--checked6 {
+  border-color: green !important;
+}
+
+.modal_shipment {
+  width: 500px;
+  height: 500px;
+}
+
+#swal2-title {
+  padding-top: 0;
+  position: relative;
+  margin-left: 25px;
+  bottom: 20px;
+  color: white;
+  margin-top: 10px;
+}
+
+#swal2-html-container {
+  padding: 10px 0 10px 10px;
+  margin-top: 0;
+  box-shadow: 0 0 0 1px #d9d9d9a8;
+  border-radius: 4px;
+  text-align: start;
+}
+
+.info_text {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+
+.no-border {
+  border: 0 !important;
+}
+
+.swal2-popup {
+  background: #181a1b;
+}
+
+.info_text-time {
+  color: #737373;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.info_buyer {
+  color: #737373;
+}
+
+.info__wrap-ship {
+  margin-top: 20px;
+}
