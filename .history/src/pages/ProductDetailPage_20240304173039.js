@@ -36,7 +36,7 @@ const ProductDetailPage = () => {
   const { isBuyProduct } = useSelector((state) => state.payment);
   const { dataOtherProducts } = useSelector((state) => state.detailSlice);
   useEffect(() => {
-    dispatch(handleGetDataById(slug));
+    dispatch(handleGetDataById());
     dispatch(handleGetDetailDataProduct(modelProduct));
     dispatch(handleFetchOtherProducts(typeProduct));
   }, [dispatch, slug, modelProduct, typeProduct]);
