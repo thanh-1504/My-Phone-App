@@ -1,7 +1,7 @@
 import React from "react";
 
 const BannerNav = ({ srcImg = "", slug = "" }) => {
-  let style = "";
+  // let style = "";
   // switch (slug) {
   //   case "iPhone": {
   //     style = "mb:h-[216px] sm:h-[350px] lg:h-[480px] ";

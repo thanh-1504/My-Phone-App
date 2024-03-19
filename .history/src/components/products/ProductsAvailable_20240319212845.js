@@ -2,7 +2,7 @@ import React from "react";
 import ItemProduct from "../items/ItemProduct";
 const ProductsAvailable = () => {
   return (
-    <div className="mb:grid mb:grid-cols-3 mb:gap-y-6 lg:flex lg:mt-[80px] lg:justify-center bg-[#0f0f0f] mb:mt-[60px] cursor-pointer mb:mb-10 lg:mb-[60px] lg:gap-x-[60px]">
+    <div className="mb:grid mb:grid-cols-3 mb:gap-y-6 lg:flex lg:mt-[80px] lg:justify-center bg-[#0f0f0f] mb:mt-[60px] cursor-pointer mb:mb-10 lg:mb-[60px]">
       <div>
         <ItemProduct
           srcImg="https://www.bihouse.vn/img_data/images/054672409108-1.png"
@@ -11,7 +11,7 @@ const ProductsAvailable = () => {
           titleClassName="mb:mt-1 mb:h-[34px] text-xs font-semibold mb:text-center lg:mt-3 font-bold text-[15px] mb:text-[13px]"
         ></ItemProduct>
       </div>
-      <div className="">
+      <div className=">
         <ItemProduct
           srcImg="https://www.bihouse.vn/img_data/images/334828119623-apple-cateipad.png"
           title="iPad"
@@ -19,7 +19,7 @@ const ProductsAvailable = () => {
           titleClassName="mb:mt-1 mb:h-[34px] text-xs font-semibold mb:text-center lg:mt-3 font-bold text-[15px] mb:text-[13px]"
         ></ItemProduct>
       </div>
-      <div className="">
+      <div className=">
         <ItemProduct
           srcImg="https://www.bihouse.vn/img_data/images/601169082553-apple-catemac.png"
           title="Mac"
@@ -27,7 +27,7 @@ const ProductsAvailable = () => {
           titleClassName="mb:mt-1 mb:h-[34px] text-xs font-semibold mb:text-center lg:mt-3 font-bold text-[15px] mb:text-[13px]"
         ></ItemProduct>
       </div>
-      <div className="">
+      <div className=">
         <ItemProduct
           srcImg="https://www.bihouse.vn/img_data/images/505084337457-apple-catesound.png"
           title="AirPods"
@@ -35,7 +35,7 @@ const ProductsAvailable = () => {
           titleClassName="mb:mt-1 mb:h-[34px] text-xs font-semibold mb:text-center lg:mt-3 font-bold text-[15px] mb:text-[13px]"
         ></ItemProduct>
       </div>
-      <div className="">
+      <div className="lg:mr-[110px]">
         <ItemProduct
           srcImg="https://www.bihouse.vn/img_data/images/804926888248-Untitled-1.png"
           title="Watch"

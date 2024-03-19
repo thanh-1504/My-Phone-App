@@ -11,7 +11,7 @@ const ItemProduct = ({
   return (
     <div
       onClick={() => navigate(`products/${title}`)}
-      className="lg:max-w-[160px] w-full"
+      className="flex flex-col lg:max-w-[160px] w-full"
     >
       <img
         src={srcImg}

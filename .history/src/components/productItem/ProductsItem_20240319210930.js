@@ -8,7 +8,7 @@ const ProductsItem = ({ style = "", data, ...props }) => {
   const { name, price, imgSrc } = data;
   const modelProduct = data.name.split(" ").join("");
   return (
-    <div className="mb:w-full mb:px-2 sm:w-full sm:px-3 md:h-[480px] lg:px-4 lg:h-auto lg:max-w-[282px]">
+    <div className="mb:w-full mb:px-2 sm:w-full sm:px-3 md:h-[480px] lg:px-4 lg:h-auto lg:max-w-[320px]">
       <div className="bg-[#3b1213] lg:h-[30px] rounded-t-2xl flex items-center justify-center ">
         <span className="text-sm font-medium text-center text-white uppercase">
           Mở rộng đổi + 2 năm
