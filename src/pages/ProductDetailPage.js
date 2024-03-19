@@ -49,7 +49,7 @@ const ProductDetailPage = () => {
         <div
           className={`${
             widthScreen >= 1280
-              ? "flex w-full lg:pt-[80px]"
+              ? "flex w-full lg:pt-[80px] lg:justify-center"
               : "overflow-x-hidden mb-[60px]"
           }`}
         >

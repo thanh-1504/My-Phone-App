@@ -2,7 +2,7 @@ import React from "react";
 import ItemProduct from "../items/ItemProduct";
 const ProductsAvailable = () => {
   return (
-    <div className="mb:grid mb:grid-cols-3 mb:gap-y-6 lg:flex lg:mt-[80px] lg:justify-end bg-[#0f0f0f] mb:mt-[60px] cursor-pointer mb:mb-10 lg:mb-[60px] lg:pl-[100px]">
+    <div className="mb:grid mb:grid-cols-3 mb:gap-y-6 lg:flex lg:mt-[80px] lg:justify-center bg-[#0f0f0f] mb:mt-[60px] cursor-pointer mb:mb-10 lg:mb-[60px] lg:pl-[100px]">
       <div>
         <ItemProduct
           srcImg="https://www.bihouse.vn/img_data/images/054672409108-1.png"

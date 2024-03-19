@@ -28,7 +28,7 @@ const ProductsFilterPage = () => {
           nameBrand={nameBrand[0]?.name}
         ></Brand>
       </div>
-      <div className="mb:px-[15px] lg:px-5">
+      <div className="mb:px-[15px] lg:px-5 lg:px-[250px]">
         <div className="mb-8">
           <FilterProduct
             slug={typeProduct}
