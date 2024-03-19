@@ -35,7 +35,7 @@ const ProductsFilterPage = () => {
             data={brandFilter}
             total={data.length || 0}
           ></FilterProduct>
-          <div className="mb:grid mb:grid-cols-2 lg:flex lg:flex-wrap lg:justify-center lg:gap-y-10 lg:pb-10 mt-10 md:gap-y-10 sm:gap-y-10 mb:gap-y-8 md:pl-[22px] sm:pl-[15px] mb:gap-x-3 lg:pl-0 lg:gap-x-0">
+          <div className="mb:grid mb:grid-cols-2 lg:flex lg:flex-wrap lg: lg:gap-y-10 lg:pb-10 mt-10 md:gap-y-10 sm:gap-y-10 mb:gap-y-8 md:pl-[22px] sm:pl-[15px] mb:gap-x-3 lg:pl-0 lg:gap-x-0">
             {data.map((dataItem) => (
               <ProductsItem key={v4()} data={dataItem}></ProductsItem>
             ))}
